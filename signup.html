@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup-maha</title>
+
+   
+    <link rel="stylesheet" href="signup.css" />
+
+    
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms">
+        <div class="form login">
+      <header style="text-align: center;">Signup</header>
+      <form action="#">
+        <div class="field username-field">
+        <div class="input-field">
+          <input type="text" placeholder="Enter your name (ex-Maha)" class="username" />
+        </div>
+        <span class="error username-error">
+          <i class="bx bx-error-circle error-icon"></i>
+          <p class="error-text">Please enter a valid username</p>
+        </span>
+      </div>
+        <div class="field email-field">
+          <div class="input-field">
+            <input type="email" placeholder="Enter your email" class="email" />
+          </div>
+          <span class="error email-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Enter a valid email</p>
+          </span>
+        </div>
+        <div class="field create-password">
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="Create password"
+              class="password"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+          <span class="error password-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">
+              Enter atleast 8 charatcer with small and capital letter, number, special character.
+            </p>
+          </span>
+        </div>
+        <div class="field confirm-password">
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="Confirm password"
+              class="cPassword"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+          <span class="error cPassword-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Incorrect password</p>
+          </span>
+        </div>
+        <div class="input-field button">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+      
+      </div>
+      
+      </div>
+      &nbsp;
+      <div class="sign-txt">&nbsp;&nbsp;Already have an account? <a href="login.html">&nbsp;&nbsp;Login now </a></div>&nbsp;
+    </div>
+
+    <!-- JavaScript -->
+    <script src="signup.js"></script>
+  </body>
+</html>
